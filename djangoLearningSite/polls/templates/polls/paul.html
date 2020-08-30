@@ -1,14 +1,12 @@
-<!DOCTYPE html>
-<html>
-<body>
+{% extends 'base_layout.html' %}
 
-<h2>An Unordered HTML List</h2>
+{% block content %}
 
 <ul>
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
-</ul>  
+</ul>
 
 <h2>An Ordered HTML List</h2>
 
@@ -16,7 +14,6 @@
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
-</ol> 
+</ol>
 
-</body>
-</html>
+{% endblock %}
